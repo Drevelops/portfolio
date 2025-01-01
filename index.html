@@ -7,11 +7,23 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+   <!-- Navbar -->
+   <nav class="navbar">
+    <div class="container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle">Toggle Theme</button>
+    </div>
+  </nav>
   <div class="container">
     <!-- Top Left Section -->
     <div class="intro">
-      <h2>Andre Wheeler</h2>
-      <p>Software Engineer</p>
+      <h1>Andre Wheeler</h1>
+      <h2>Software Engineer</h2>
       <p>I’m passionate about learning and  continuously expanding my knowledge in software development. I enjoy building practical solutions and tackling challenges through code.</p>
       <p>Technologies: Java, Python, SQL</p>
       <!-- Add images of tech logos -->
@@ -19,40 +31,6 @@
       <img src="static/python-logo.png" alt="Python" />
       <img src="static/sql-logo.png" alt="SQL" />
     </div>
-
-    <!-- Vertical Navigation -->
-    <nav class="sidebar">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-      </ul>
-    </nav>
-
-    <!-- Links Section -->
-    <div class="links">
-      <a href="https://github.com/Drevelops" target="_blank">
-        <img src="static/github-icon.png" alt="GitHub" />
-      </a>
-      <a href="https://linkedin.com/in/andre-wheeler" target="_blank">
-        <img src="static/linkedin-icon.png" alt="LinkedIn" />
-      </a>
-      <a href="static/resume.pdf" download="resume.pdf">
-        <img src="static/resume-icon.png" alt="Resume" />
-      </a>
-      <a href="mailto:andre.d.wheeler@gmail.com">
-        <img src="static/email-icon.png" alt="Email" />
-      </a>
-    </div>
-
-    <!-- Right Content Section -->
-    <div class="content">
-        <button id="theme-toggle">Toggle Theme</button>
-        <section id="about">
-        <h3>About</h3>
-        <p>Details about your background, skills, and goals.</p>
-      </section>
-
       <section id="projects">
         <h3>Projects</h3>
         <div>
@@ -84,6 +62,21 @@
                 </ul>
             </div>
       </section>
+          <!-- Links Section -->
+    <div class="links">
+      <a href="https://github.com/Drevelops" target="_blank">
+        <img src="static/github-icon.png" alt="GitHub" />
+      </a>
+      <a href="https://linkedin.com/in/andre-wheeler" target="_blank">
+        <img src="static/linkedin-icon.png" alt="LinkedIn" />
+      </a>
+      <a href="static/resume.pdf" download="resume.pdf">
+        <img src="static/resume-icon.png" alt="Resume" />
+      </a>
+      <a href="mailto:andre.d.wheeler@gmail.com">
+        <img src="static/email-icon.png" alt="Email" />
+      </a>
+    </div>
     </div>
   </div>
   <script src = "script.js" defer></script>

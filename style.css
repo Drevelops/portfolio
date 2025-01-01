@@ -1,0 +1,190 @@
+/* Default Light Theme */
+:root {
+    --background-color: #ffffff;
+    --text-color: #333;
+    --link-color: #007BFF;
+    --nav-background: #f4f4f4;
+    --nav-text: #333;
+  }
+  
+  /* Dark Theme */
+  [data-theme="dark"] {
+    --background-color: #121212;
+    --text-color: #e0e0e0;
+    --link-color: #4A90E2;
+    --nav-background: #1f1f1f;
+    --nav-text: #e0e0e0;
+  }
+  
+  /* General Styles */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--nav-background);
+    color: var(--nav-text);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: var(--link-color);
+  }
+  
+  /* Theme Toggle Button */
+  #theme-toggle {
+    float: right;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--text-color);
+    color: white;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 20px;
+  }
+  
+  .job h4,
+  .job h5 {
+    color: var(--text-color);
+  }
+  
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container Layout */
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
+  }
+  
+  /* Intro Section */
+  .intro {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .intro img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  /* Sidebar Navigation */
+  .sidebar {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: var(--nav-text);
+    font-weight: bold;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #007BFF;
+  }
+  
+  /* Links Section */
+  .links {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    gap: 60px;
+  }
+  
+  .links img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Right Content */
+  .content {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    padding: 20px;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+  }
+  
+  .content section {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+    }
+  
+    .intro, .sidebar, .links, .content {
+      grid-column: 1 / 2;
+    }
+  }
+  
+  .job {
+    margin-bottom: 20px;
+  }
+  
+  .job h4 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+  }
+  
+  .job h5 {
+    margin-bottom: 10px;
+    font-size: 1em;
+  }
+  
+  .job ul {
+    margin-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .job ul li {
+    margin-bottom: 5px;
+  }
+  

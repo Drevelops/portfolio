@@ -9,7 +9,7 @@ const Projects = () => {
       <div>
         <h3>Project 1</h3>
         <p>A modern, feature-rich task management application that enables users to efficiently organize and track their tasks through different stages of completion. Built with React and Spring Boot, this application offers a seamless drag-and-drop interface and robust backend functionality.</p>
-        <img src={LiveDemo} alt="Live Demo" />
+        <img src={LiveDemo} alt="Live Demo"  style={{ width: "100%", maxWidth: "500px", borderRadius: "10px" }}/>
         <div className="project-links">
           <a href="https://github.com/Drevelops/TaskManagerApp" target="_blank" rel="noopener noreferrer">
           <img  src={githubIcon} alt="GitHub Code" /> 

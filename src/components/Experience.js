@@ -6,7 +6,7 @@ const Experience = () => {
       <h2>Experience</h2>
       <div className="job">
         <h4>DoorDash - Tempe, AZ</h4>
-        <h5>Quality Insights Fraud Analyst (March 2022 - Present)</h5>
+        <h5>Quality Insights Fraud Analyst (March 2022 - March 2025)</h5>
         <ul>
           <li>Leveraged SQL-based data querying techniques to identify patterns, anomalies, and trends, enhancing fraud prevention measures for the platform.</li>
           <li>Conducted deep dives into individual fraud events, identifying root causes and developing targeted solutions.</li>

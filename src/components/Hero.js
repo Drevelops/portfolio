@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="container">
-        <img src={profilePic} alt="Profile Picture" className="profile-pic" />
+        <img src={profilePic} alt="Andre Wheeler" className="profile-pic" />
         <div className="hero-content">
           <h1>Andre Wheeler</h1>
           <h2>Software Engineer</h2>

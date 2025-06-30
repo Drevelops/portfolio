@@ -7,13 +7,19 @@ const Projects = () => {
     <section id="projects">
       <h2>Projects</h2>
       <div>
-        <h3>Project 1</h3>
-        <p>A modern, feature-rich task management application that enables users to efficiently organize and track their tasks through different stages of completion. Built with React and Spring Boot, this application offers a seamless drag-and-drop interface and robust backend functionality.</p>
+        <h3>HoopAnalytics - NBA Statistics API & Analytics Platform</h3>
+        <p>A comprehensive full-stack application providing NBA player and team statistics with advanced analytics capabilities and interactive data visualizations.</p>
+        <ul>Built RESTful API with FastAPI serving 500+ NBA players and team statistics</ul>
+        <ul>Implemented PostgreSQL database with SQLAlchemy ORM and Alembic migrations</ul>
+        <ul>Developed React frontend with Chart.js for interactive shot charts and performance trends</ul>
+        <ul>Deployed full-stack application with authentication and user dashboard features</ul>
+        <p>Tech Stack: FastAPI | PostgreSQL | React | Chart.js | SQLAlchemy | Railway | Vercel</p>
         <img src={LiveDemo} alt="Live Demo"  style={{ width: "100%", maxWidth: "500px", borderRadius: "10px" }}/>
         <div className="project-links">
-          <a href="https://github.com/Drevelops/TaskManagerApp" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Drevelops/HoopAnalytics-API" target="_blank" rel="noopener noreferrer">
           <img  src={githubIcon} alt="GitHub Code" /> 
           </a>
+            <a href="https://hoop-analytics-api.vercel.app/" target="_blank" rel="noopener noreferrer"></a>
         </div>
       </div>
     </section>

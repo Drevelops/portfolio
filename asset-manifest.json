@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.30daa406.css",
-    "main.js": "/static/js/main.424f1dc0.js",
+    "main.css": "/static/css/main.d813eef0.css",
+    "main.js": "/static/js/main.159c9206.js",
     "static/js/488.9561f9b8.chunk.js": "/static/js/488.9561f9b8.chunk.js",
     "static/media/linkedin-icon.png": "/static/media/linkedin-icon.755a688afd6852bc8111.png",
     "static/media/profile-pic.jpg": "/static/media/profile-pic.99f047705660c711bf8d.jpg",
-    "static/media/hoopanalytics.png": "/static/media/hoopanalytics.e29b2d4361ed4cf5d99d.png",
+    "static/media/Hoopanalytics.png": "/static/media/Hoopanalytics.e29b2d4361ed4cf5d99d.png",
     "static/media/github-icon.png": "/static/media/github-icon.964d4c0ee4c33e58e68b.png",
     "static/media/Dashboard_Screenshot.png": "/static/media/Dashboard_Screenshot.43e2aecbad45c94d9bd9.png",
     "static/media/email-icon.png": "/static/media/email-icon.05fe2ba1af3a20d6bae4.png",
-    "static/media/education.png": "/static/media/education.c5df9bbd51e9d64d0d29.png",
     "static/media/location-icon.png": "/static/media/location-icon.64cdcb0ef97818161310.png",
     "index.html": "/index.html",
-    "main.30daa406.css.map": "/static/css/main.30daa406.css.map",
-    "main.424f1dc0.js.map": "/static/js/main.424f1dc0.js.map",
+    "main.d813eef0.css.map": "/static/css/main.d813eef0.css.map",
+    "main.159c9206.js.map": "/static/js/main.159c9206.js.map",
     "488.9561f9b8.chunk.js.map": "/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30daa406.css",
-    "static/js/main.424f1dc0.js"
+    "static/css/main.d813eef0.css",
+    "static/js/main.159c9206.js"
   ]
 }
